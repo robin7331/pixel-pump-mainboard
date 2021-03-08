@@ -1,3 +1,6 @@
 (sym_lib_table
   (lib (name "sucker-one-mainboard-rescue")(type "Legacy")(uri "${KIPRJMOD}/sucker-one-mainboard-rescue.lib")(options "")(descr ""))
+  (lib (name "MOLEX 10 Pin 1mm FFC con")(type "Legacy")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/Conn_Molex_52271-1079/eec.lib")(options "")(descr ""))
+  (lib (name "FDN304PZ")(type "Legacy")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/Trans_ON Semi_FDN304PZ/eec.lib")(options "")(descr ""))
+  (lib (name "pgmfoot")(type "Legacy")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/TagConnect KiCad/Kicad another/pgmfoot.lib")(options "")(descr ""))
 )
