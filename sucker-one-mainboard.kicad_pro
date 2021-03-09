@@ -381,7 +381,7 @@
       "idf": "",
       "netlist": "sucker-one-mainboard.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "sucker-one-mainboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
