@@ -45,11 +45,32 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "silk_over_copper|94644000|149538000|0da4a74a-4466-429e-aef7-ec10dddd145c|ed7a94ff-e5e8-4eba-96e3-c5c41671b2e9",
+        "silk_overlap|100745000|142157000|8d29a4ae-18be-446d-be69-374abec0d66d|8e93a81b-788f-4cfb-9adb-bc4c0da52821",
+        "silk_overlap|100745000|142157000|8e93a81b-788f-4cfb-9adb-bc4c0da52821|8d29a4ae-18be-446d-be69-374abec0d66d",
+        "silk_overlap|128369000|127862923|15a58b17-67a4-4448-81b6-b32b33ccc1c7|43230379-1c2f-4525-82f6-35a842fdab1c",
+        "silk_overlap|128369000|130119523|15a58b17-67a4-4448-81b6-b32b33ccc1c7|2c97857e-4e47-48b5-baf8-67da83d3cce9",
+        "silk_overlap|130238666|112672761|09983e76-35b8-4b8e-aacb-f7275f0ae7c9|d59e2d8c-87eb-437f-b68f-0cfc6fdc786b",
+        "silk_overlap|130238666|117166857|002c388e-51e7-46fb-81bf-09210de02655|4b1b5df0-3846-451a-8647-858ef0ecb585",
+        "silk_overlap|130286285|111815619|09983e76-35b8-4b8e-aacb-f7275f0ae7c9|d59e2d8c-87eb-437f-b68f-0cfc6fdc786b",
+        "silk_overlap|130286285|112101333|09983e76-35b8-4b8e-aacb-f7275f0ae7c9|d59e2d8c-87eb-437f-b68f-0cfc6fdc786b",
+        "silk_overlap|130286285|117071619|002c388e-51e7-46fb-81bf-09210de02655|4b1b5df0-3846-451a-8647-858ef0ecb585",
+        "silk_overlap|130286285|117357333|002c388e-51e7-46fb-81bf-09210de02655|4b1b5df0-3846-451a-8647-858ef0ecb585",
+        "silk_overlap|132857714|117071619|002c388e-51e7-46fb-81bf-09210de02655|335e2b37-79db-46aa-b2c7-a4c2661c9810",
+        "silk_overlap|132857714|117404952|002c388e-51e7-46fb-81bf-09210de02655|335e2b37-79db-46aa-b2c7-a4c2661c9810",
+        "silk_overlap|132905333|112720380|09983e76-35b8-4b8e-aacb-f7275f0ae7c9|71e397eb-959f-4338-92a8-9ec1c6cbd3ad"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 1
@@ -112,10 +133,11 @@
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": 0.0
+        "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
         0.0,
+        0.25,
         0.4,
         0.8
       ],
@@ -123,6 +145,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.4
         },
         {
           "diameter": 1.0,
