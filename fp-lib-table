@@ -2,4 +2,6 @@
   (lib (name "Molex 52271-1079")(type "KiCad")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/Conn_Molex_52271-1079/eec.pretty")(options "")(descr ""))
   (lib (name "FDN304PZ")(type "KiCad")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/Trans_ON Semi_FDN304PZ/eec.pretty")(options "")(descr ""))
   (lib (name "LM358D")(type "KiCad")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/LM358D")(options "")(descr ""))
+  (lib (name "TPD1E05U06DPYR")(type "KiCad")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/TPD1E05U06DPYR")(options "")(descr ""))
+  (lib (name "TYPE-C-31-M-12")(type "KiCad")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/TYPE-C-31-M-12")(options "")(descr ""))
 )
