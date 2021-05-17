@@ -8,4 +8,5 @@
   (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/components/RP2040")(options "")(descr ""))
   (lib (name "TPS561201DDCR")(type "KiCad")(uri "${KIPRJMOD}/components/TPS561201DDCR")(options "")(descr ""))
   (lib (name "ABLS-12")(type "KiCad")(uri "${KIPRJMOD}/components/ABLS-12.000MHZ-B4-T")(options "")(descr ""))
+  (lib (name "ABMM2-12")(type "KiCad")(uri "${KIPRJMOD}/components/ABMM2-12.000MHZ-E2-T")(options "")(descr ""))
 )

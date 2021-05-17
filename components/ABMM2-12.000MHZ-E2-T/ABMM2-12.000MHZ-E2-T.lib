@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ABMM2-12.000MHZ-E2-T
+#
+DEF ABMM2-12.000MHZ-E2-T Y 0 40 Y Y 1 L N
+F0 "Y" -200 250 50 H V L BNN
+F1 "ABMM2-12.000MHZ-E2-T" -200 -350 50 H V L BNN
+F2 "XTAL_ABMM2-12.000MHZ-E2-T" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "1.20 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F5 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F6 "01.18.13" 0 0 50 H I L BNN "PARTREV"
+F7 "Abracon Corporation" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+P 2 0 0 6 -55 100 55 100 N
+P 2 0 0 6 55 100 55 -100 N
+P 2 0 0 6 55 -100 -55 -100 N
+P 2 0 0 6 -55 100 -55 -100 N
+P 2 0 0 6 92 100 92 0 N
+P 2 0 0 6 92 0 92 -100 N
+P 2 0 0 6 -92 100 -92 0 N
+P 2 0 0 6 -92 0 -92 -100 N
+P 2 0 0 10 -200 200 200 200 N
+P 2 0 0 10 200 200 200 0 N
+P 2 0 0 10 200 0 200 -300 N
+P 2 0 0 10 200 -300 -200 -300 N
+P 2 0 0 10 -200 -300 -200 0 N
+P 2 0 0 10 -200 0 -200 200 N
+P 2 0 0 6 200 0 92 0 N
+P 2 0 0 6 -200 0 -92 0 N
+X ~ 3 400 0 200 L 40 40 0 0 P 
+X ~ 1 -400 0 200 R 40 40 0 0 P 
+X GND 2 400 -200 200 L 40 40 0 0 W 
+X GND 4 400 -200 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
