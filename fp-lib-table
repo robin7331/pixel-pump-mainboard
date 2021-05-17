@@ -5,4 +5,7 @@
   (lib (name "TPD1E05U06DPYR")(type "KiCad")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/TPD1E05U06DPYR")(options "")(descr ""))
   (lib (name "TYPE-C-31-M-12")(type "KiCad")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/TYPE-C-31-M-12")(options "")(descr ""))
   (lib (name "STN4NF20L")(type "KiCad")(uri "${KIPRJMOD}/STN4NF20L")(options "")(descr ""))
+  (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/components/RP2040")(options "")(descr ""))
+  (lib (name "TPS561201DDCR")(type "KiCad")(uri "${KIPRJMOD}/components/TPS561201DDCR")(options "")(descr ""))
+  (lib (name "ABLS-12")(type "KiCad")(uri "${KIPRJMOD}/components/ABLS-12.000MHZ-B4-T")(options "")(descr ""))
 )
