@@ -8,4 +8,5 @@
   (lib (name "TPD1E05U06DPYR")(type "Legacy")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/TPD1E05U06DPYR/TPD1E05U06DPYR.lib")(options "")(descr ""))
   (lib (name "TYPE-C-31-M-12")(type "Legacy")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/TYPE-C-31-M-12/TYPE-C-31-M-12.lib")(options "")(descr ""))
   (lib (name "STN4NF20L")(type "Legacy")(uri "${KIPRJMOD}/STN4NF20L/STN4NF20L.lib")(options "")(descr ""))
+  (lib (name "TPS561201DDCR")(type "Legacy")(uri "${KIPRJMOD}/components/TPS561201DDCR/TPS561201DDCR.lib")(options "")(descr ""))
 )
