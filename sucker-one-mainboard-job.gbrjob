@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(5.99.0-9379-gbf5cd2e233)"
+      "Version": "(5.99.0-10573-gc33b2cfa8d)"
     },
-    "CreationDate": "2021-03-11T01:10:35+01:00"
+    "CreationDate": "2021-05-19T14:35:48+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -18,7 +18,7 @@
       "Y": 67.8596
     },
     "LayerNumber": 4,
-    "BoardThickness": 1.6,
+    "BoardThickness": 1.59,
     "Finish": "None"
   },
   "DesignRules": [
@@ -26,14 +26,17 @@
       "Layers": "Outer",
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
-      "TrackToTrack": 0.2,
-      "MinLineWidth": 0.25
+      "TrackToTrack": 0.15,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.15,
+      "RegionToRegion": 0.15
     },
     {
       "Layers": "Inner",
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
-      "TrackToTrack": 0.2,
+      "TrackToTrack": 0.15,
+      "MinLineWidth": 0.2,
       "TrackToRegion": 0.508,
       "RegionToRegion": 0.508
     }
@@ -45,12 +48,12 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sucker-one-mainboard-PWR.gbr",
+      "Path": "sucker-one-mainboard-GND.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sucker-one-mainboard-GND.gbr",
+      "Path": "sucker-one-mainboard-PWR.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
@@ -117,34 +120,34 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.48,
+      "Thickness": 0.2,
       "Material": "FR4",
-      "Name": "F.Cu/PWR",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to PWR)"
+      "Name": "F.Cu/GND",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to GND)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "PWR"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.48,
-      "Material": "FR4",
-      "Name": "PWR/GND",
-      "Notes": "Type: dielectric layer 2 (from PWR to GND)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0175,
       "Name": "GND"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.48,
+      "Thickness": 1.065,
       "Material": "FR4",
-      "Name": "GND/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from GND to B.Cu)"
+      "Name": "GND/PWR",
+      "Notes": "Type: dielectric layer 2 (from GND to PWR)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0175,
+      "Name": "PWR"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2,
+      "Material": "FR4",
+      "Name": "PWR/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from PWR to B.Cu)"
     },
     {
       "Type": "Copper",
