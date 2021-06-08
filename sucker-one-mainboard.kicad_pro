@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.875,
+          "width": 0.2
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -45,14 +45,52 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "clearance|75488800|127330200|e130870f-147b-4731-a186-e36e0ce7646a|4543f688-0000-4062-b522-602880aefb51",
+        "clearance|75488800|131953000|e130870f-147b-4731-a186-e36e0ce7646a|4543f688-0000-4062-b522-602880aefb51",
+        "clearance|94530000|140210000|a6e8454e-023c-4336-841c-c50acf847989|cefb97da-09ea-4f86-b76e-3c3b7c115576",
+        "clearance|97644000|151670500|11af2e35-5edd-4590-95f8-c736154b706c|0629f53c-89b0-4921-804e-c93bf4bcdef1",
+        "clearance|97944000|151670500|11af2e35-5edd-4590-95f8-c736154b706c|c707936a-25b6-4093-b2db-39d25106d88d",
+        "clearance|98444000|151670500|c707936a-25b6-4093-b2db-39d25106d88d|3feb19a1-fc7b-464f-9e3d-c2fe9bbc4edc",
+        "courtyards_overlap|102434999|114545001|2d790cc3-4fbc-4722-996c-2f269c4dd675|9a4611c9-2a91-4c7b-bbd8-ed4f72cc309a",
+        "courtyards_overlap|102924001|125334517|2b4e8ddd-a63e-4805-9c4b-21616121b8f3|b4e2bb59-30fa-45fb-911a-b51109cf41ea",
+        "courtyards_overlap|103500354|127499001|2b4e8ddd-a63e-4805-9c4b-21616121b8f3|83282bfc-a3d8-4234-88ce-bb403b6664ab",
+        "courtyards_overlap|106358601|151578601|8cf537ba-1b00-4dea-9317-6b9112b85bc0|d0ca1aac-a98f-4601-8543-01d164cd56ae",
+        "courtyards_overlap|108362001|143041001|329243d4-f88c-4ff1-84b8-80094a961b03|961600cc-eea7-46c9-a4de-5497a91337ae",
+        "courtyards_overlap|108362001|145523001|329243d4-f88c-4ff1-84b8-80094a961b03|ed0ffe49-657d-49bf-8e51-ae809c7a07ba",
+        "courtyards_overlap|109673999|127499001|83282bfc-a3d8-4234-88ce-bb403b6664ab|b4e2bb59-30fa-45fb-911a-b51109cf41ea",
+        "courtyards_overlap|116947343|152321000|329243d4-f88c-4ff1-84b8-80094a961b03|65bbd1ee-9225-446e-ae31-4d79205d3567",
+        "courtyards_overlap|121234702|144039832|1d1d635e-de14-4987-9628-879d0fef1cb7|329243d4-f88c-4ff1-84b8-80094a961b03",
+        "courtyards_overlap|78067601|142159581|24ebfa95-faf7-4d88-9e3d-9b88cc19455d|9576bacb-fe54-4aeb-8f87-3f8f678a6854",
+        "courtyards_overlap|90364001|108693201|439af877-2ab0-4d70-942b-e5339dcb117f|8d513b33-8f26-4f41-85e9-e56b7d9a4186",
+        "courtyards_overlap|90364001|110496601|8d513b33-8f26-4f41-85e9-e56b7d9a4186|93a3154e-f088-4a77-ae68-2bef581d1389",
+        "courtyards_overlap|94053401|129821201|159feee5-931d-4647-be72-fc184a62a342|88238324-af5d-4653-bc28-7c85ccc7a5df",
+        "courtyards_overlap|98912001|147368001|495c09a7-525b-4f5b-9b34-af6e75589a89|885ccd9d-3585-467d-a80e-270da38b0e8b",
+        "silk_over_copper|103314000|127127000|36d940bd-4bec-473a-8c0a-e2f8a58916bb|28c210c0-839d-4bb3-bb46-b0f5de00f2b4",
+        "silk_over_copper|103314000|127127000|55ddf6d1-b678-4f5f-9f29-57144ccc2144|28c210c0-839d-4bb3-bb46-b0f5de00f2b4",
+        "silk_over_copper|123542502|141346759|bd668ced-805b-405f-b56c-c1aff2b32ea7|2ed41ab2-c73d-4fe7-8ee1-1bac758efac5",
+        "silk_over_copper|123678963|141366379|bd668ced-805b-405f-b56c-c1aff2b32ea7|2ed41ab2-c73d-4fe7-8ee1-1bac758efac5",
+        "silk_over_copper|123753498|141250400|bd668ced-805b-405f-b56c-c1aff2b32ea7|2ed41ab2-c73d-4fe7-8ee1-1bac758efac5",
+        "silk_over_copper|78167600|143556000|ce59f73e-988d-4eb4-93f9-23427c55ddbd|292bcadb-0bb7-4189-8d4a-342168e4e3d3",
+        "silk_over_copper|78467600|144424400|0c012989-3924-44c7-8a57-501274ef2154|292bcadb-0bb7-4189-8d4a-342168e4e3d3",
+        "silk_overlap|108862000|153047918|388c9993-beef-4d2a-b6e0-b17a613322c3|cefaef3f-2c72-42a4-8ce4-0a2a18a2f084",
+        "silk_overlap|97986826|149071493|e8d3e278-08f3-48a3-b18a-366b903f39a6|e4a0d272-2241-4b8d-99c0-297419d435e9",
+        "silk_overlap|98107000|149098000|e4a0d272-2241-4b8d-99c0-297419d435e9|e8d3e278-08f3-48a3-b18a-366b903f39a6",
+        "silk_overlap|98108357|149081460|e4a0d272-2241-4b8d-99c0-297419d435e9|e8d3e278-08f3-48a3-b18a-366b903f39a6"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
-        "version": 1
+        "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
@@ -109,15 +147,14 @@
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
-        "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": 0.0
+        "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
-        0.4,
-        0.8
+        0.15,
+        0.3,
+        0.5,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -125,8 +162,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 1.0,
-          "drill": 0.6
+          "diameter": 0.4,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false,
@@ -137,6 +174,210 @@
   "boards": [],
   "cvpcb": {
     "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_label_syntax": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
   },
   "libraries": {
     "pinned_footprint_libs": [],
@@ -150,7 +391,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -160,9 +401,69 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Slim",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Thicc",
+        "nets": [
+          "+12V",
+          "+5V"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
         "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_drill": 0.35,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.8,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB_DIFF_90",
+        "nets": [
+          "DN",
+          "DP"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6.0
       }
     ],
@@ -177,24 +478,53 @@
       "idf": "",
       "netlist": "sucker-one-mainboard.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "sucker-one-mainboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "drawing": {
-      "default_text_size": 50
+      "default_bus_thickness": 12.0,
+      "default_junction_size": 36.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "default_wire_thickness": 6.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
+    "meta": {
+      "version": 0
+    },
     "net_format_name": "Pcbnew",
+    "ngspice": {
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "d7480747-0c74-4a2e-a1fb-aa2cb00324f5",
+      ""
+    ]
+  ],
   "text_variables": {}
 }

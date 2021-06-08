@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1812L075PR
+#
+DEF 1812L075PR F 0 40 Y Y 1 L N
+F0 "F" -200 150 50 H V L BNN
+F1 "1812L075PR" -200 -150 50 H V L BNN
+F2 "FUSM4632X75" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Littelfuse" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+A -100 0 100 -1 1800 0 0 10 N -200 0 0 0
+A 100 0 100 1799 3600 0 0 10 N 200 0 0 0
+C -200 0 10 0 0 10 N
+C 200 0 10 0 0 10 N
+X 1 1 -400 0 200 R 40 40 0 0 P 
+X 2 2 400 0 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
