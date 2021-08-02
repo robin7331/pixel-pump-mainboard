@@ -4,7 +4,6 @@
   (lib (name "LM358D")(type "KiCad")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/LM358D")(options "")(descr ""))
   (lib (name "TPD1E05U06DPYR")(type "KiCad")(uri "${KIPRJMOD}/components/TPD1E05U06DPYR")(options "")(descr ""))
   (lib (name "TYPE-C-31-M-12")(type "KiCad")(uri "/Users/robin/Documents/Projects/Sucker One/Electronics/TYPE-C-31-M-12")(options "")(descr ""))
-  (lib (name "STN4NF20L")(type "KiCad")(uri "${KIPRJMOD}/STN4NF20L")(options "")(descr ""))
   (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/components/RP2040")(options "")(descr ""))
   (lib (name "TPS561201DDCR")(type "KiCad")(uri "${KIPRJMOD}/components/TPS561201DDCR")(options "")(descr ""))
   (lib (name "ABLS-12")(type "KiCad")(uri "${KIPRJMOD}/components/ABLS-12.000MHZ-B4-T")(options "")(descr ""))
@@ -12,4 +11,5 @@
   (lib (name "W25Q128JVPIQ TR")(type "KiCad")(uri "${KIPRJMOD}/components/W25Q128JVPIQ TR")(options "")(descr ""))
   (lib (name "1812L075PR")(type "KiCad")(uri "${KIPRJMOD}/components/1812L075PR")(options "")(descr ""))
   (lib (name "BM10B-SRSS-TB(LF)(SN)")(type "KiCad")(uri "${KIPRJMOD}/components/BM10B-SRSS-TB(LF)(SN)")(options "")(descr ""))
+  (lib (name "STN4NF20L")(type "KiCad")(uri "${KIPRJMOD}/components/STN4NF20L")(options "")(descr ""))
 )
