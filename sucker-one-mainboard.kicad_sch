@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210621) (generator eeschema)
 
   (uuid d7480747-0c74-4a2e-a1fb-aa2cb00324f5)
 
@@ -1229,7 +1229,7 @@
       )
       (symbol "W25Q128JVS_1_1"
         (pin input line (at -12.7 2.54 0) (length 2.54)
-          (name "~CS" (effects (font (size 1.27 1.27))))
+          (name "~{CS}" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 12.7 2.54 180) (length 2.54)
@@ -2499,7 +2499,6 @@
       )
     )
   )
-
 
   (junction (at 42.545 146.685) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 45.72 125.095) (diameter 0.9144) (color 0 0 0 0))
