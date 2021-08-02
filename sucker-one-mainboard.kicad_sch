@@ -7,7 +7,7 @@
   (title_block
     (title "Sucker One Mainboard")
     (date "2020-12-18")
-    (rev "1")
+    (rev "2")
   )
 
   (lib_symbols
