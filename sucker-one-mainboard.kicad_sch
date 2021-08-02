@@ -2500,7 +2500,6 @@
     )
   )
 
-
   (junction (at 42.545 146.685) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 45.72 125.095) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 46.99 67.945) (diameter 0.9144) (color 0 0 0 0))
@@ -4441,7 +4440,7 @@
     (effects (font (size 2.0066 2.0066)) (justify left bottom))
     (uuid 06b7556b-4020-41dc-a837-86d76fa7ddb2)
   )
-  (text "LED Board Level Shifting\n" (at 113.03 232.41 0)
+  (text "UI Board Level Shifting\n" (at 113.03 232.41 0)
     (effects (font (size 2.0066 2.0066)) (justify left bottom))
     (uuid a2fcd96e-5eae-418c-a475-3e8913025c29)
   )
