@@ -11,4 +11,5 @@
   (lib (name "ABMM2-12")(type "KiCad")(uri "${KIPRJMOD}/components/ABMM2-12.000MHZ-E2-T")(options "")(descr ""))
   (lib (name "W25Q128JVPIQ TR")(type "KiCad")(uri "${KIPRJMOD}/components/W25Q128JVPIQ TR")(options "")(descr ""))
   (lib (name "1812L075PR")(type "KiCad")(uri "${KIPRJMOD}/components/1812L075PR")(options "")(descr ""))
+  (lib (name "BM10B-SRSS-TB(LF)(SN)")(type "KiCad")(uri "${KIPRJMOD}/components/BM10B-SRSS-TB(LF)(SN)")(options "")(descr ""))
 )
