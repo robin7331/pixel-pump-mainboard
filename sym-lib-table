@@ -14,4 +14,5 @@
   (lib (name "SP0502BAHTG")(type "Legacy")(uri "${KIPRJMOD}/components/Diode_Littelfuse Inc_SP0502BAHTG/eec.lib")(options "")(descr ""))
   (lib (name "TPS62143RGTT")(type "Legacy")(uri "${KIPRJMOD}/components/TPS62143RGTT/TPS62143RGTT.lib")(options "")(descr ""))
   (lib (name "BM10B-SRSS-TB(LF)(SN)")(type "Legacy")(uri "${KIPRJMOD}/components/BM10B-SRSS-TB(LF)(SN)/BM10B-SRSS-TB(LF)(SN).lib")(options "")(descr ""))
+  (lib (name "TPS62112RSAR")(type "Legacy")(uri "${KIPRJMOD}/components/TPS62112RSAR/TPS62112RSAR.lib")(options "")(descr ""))
 )
