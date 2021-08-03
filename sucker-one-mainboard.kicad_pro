@@ -496,11 +496,11 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "",
+      "idf": "sucker-one-mainboard.emn",
       "netlist": "sucker-one-mainboard.net",
       "specctra_dsn": "",
       "step": "sucker-one-mainboard.step",
-      "vrml": ""
+      "vrml": "sucker-one-mainboard.wrl"
     },
     "page_layout_descr_file": ""
   },

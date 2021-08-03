@@ -1190,12 +1190,7 @@
       (net 74 "FPATVS") (pintype "passive") (tstamp b8793d77-41e6-4207-aa2a-d4498dbfb751))
     (pad "4" thru_hole circle locked (at 3.06 2.54) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
       (net 2 "+3V3") (pintype "passive") (tstamp 5c2af0b0-3823-4381-99f2-91b69b11a52f))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ14_Connfly_DS1133-S4_Horizontal.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/robin/Documents/Projects/Sucker One/Electronics/RJ11 STEP/TJ6P4C v1.step"
+    (model "${KIPRJMOD}/components/RJ11/TJ6P4C.step"
       (offset (xyz 3 -2.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2319,6 +2314,11 @@
       (net 1 "GND") (pinfunction "PGND") (pintype "passive") (tstamp f4340d70-c979-44f3-929b-7e6a7556274a))
     (pad "17" smd rect locked (at 0 0 180) (size 2.159 2.159) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "EP") (pintype "passive") (tstamp 41e2cbd7-91d8-422b-aa8a-a2c77b6fae15))
+    (model "${KIPRJMOD}/components/TPS62112RSAR/TPS62112RSAR.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "TYPE-C-31-M-12:HRO_TYPE-C-31-M-12" (layer "F.Cu")
@@ -2389,8 +2389,8 @@
       (net 19 "Net-(C21-Pad2)") (pinfunction "SHIELD") (pintype "passive") (tstamp eb141b0b-8f96-481e-8472-87888f372a83))
     (pad "S4" thru_hole oval locked (at 4.32 0) (size 1.05 2.1) (drill oval 0.65 1.25) (layers *.Cu *.Mask)
       (net 19 "Net-(C21-Pad2)") (pinfunction "SHIELD") (pintype "passive") (tstamp bcbe2c2d-839a-4742-beee-d4cc870b3321))
-    (model "/Users/robin/Documents/Projects/Sucker One/Electronics/HRO-TYPE-C-31-M-12/HRO -TYPE-C-31-M-12.step"
-      (offset (xyz -4.5 -2.6 0))
+    (model "${KIPRJMOD}/components/TYPE-C-31-M-12/TYPE-C-31-M-12.step"
+      (offset (xyz 0 -0.1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -4596,12 +4596,7 @@
     (pad "2" thru_hole oval locked (at 0 5.8) (size 4 1.8) (drill oval 3 0.8) (layers *.Cu *.Mask)
       (net 47 "Net-(J5-Pad2)") (pintype "passive") (tstamp 69a9c507-a1bf-493c-afa5-8f250f4c2413))
     (pad "3" thru_hole oval locked (at 4.8 3 90) (size 4 1.8) (drill oval 3 0.8) (layers *.Cu *.Mask) (tstamp 7f3f3204-290f-427c-8066-217a22ebcd14))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Wuerth_6941xx301002.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/robin/Documents/Projects/Sucker One/Electronics/Wurth DC Jack STP/würth 694106301002 (rev1).stp"
+    (model "${KIPRJMOD}/components/Wurth DC Jack STP/würth 694106301002 (rev1).stp"
       (offset (xyz 0 -10.1 5))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 180 180))
@@ -9837,7 +9832,7 @@
         (xy 74.45 119.7)
         (xy 74.45 121.5)
         (xy 71.45 121.5)
-        (xy 71.45 119.45)
+        (xy 71.45 119.25)
         (xy 73.55 119.25)
         (xy 73.55 117.85)
         (xy 74.8 117.85)
@@ -9863,12 +9858,10 @@
         (xy 71.507879 121.479998)
         (xy 71.461386 121.426342)
         (xy 71.45 121.374)
-        (xy 71.45 119.56457)
-        (xy 71.470002 119.496449)
-        (xy 71.523658 119.449956)
-        (xy 71.564054 119.439138)
-        (xy 73.531965 119.251718)
-        (xy 73.531966 119.251718)
+        (xy 71.45 119.376)
+        (xy 71.470002 119.307879)
+        (xy 71.523658 119.261386)
+        (xy 71.576 119.25)
         (xy 73.55 119.25)
         (xy 73.55 119.106263)
         (xy 73.559591 119.058045)
@@ -10091,6 +10084,9 @@
         (xy 74.912592 119.34055)
         (xy 74.921651 119.321839)
         (xy 74.923922 119.317149)
+        (xy 74.933458 119.284672)
+        (xy 74.942655 119.253351)
+        (xy 74.942656 119.253347)
         (xy 74.943924 119.249028)
         (xy 74.95 119.206768)
         (xy 74.95 117.976)
