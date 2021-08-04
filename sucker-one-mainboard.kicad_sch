@@ -6763,8 +6763,8 @@
   (symbol (lib_id "Device:L") (at 101.6 123.825 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid da011f78-877c-4e1b-9f8e-2b32af13a99d)
-    (property "Reference" "L1" (id 0) (at 101.6 117.475 90))
-    (property "Value" "L" (id 1) (at 101.6 120.015 90))
+    (property "Reference" "L1" (id 0) (at 101.6 118.11 90))
+    (property "Value" "6.8uH" (id 1) (at 101.6 120.65 90))
     (property "Footprint" "Inductor_SMD:L_TDK_SLF7032" (id 2) (at 101.6 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -7632,7 +7632,7 @@
     (property "Value" "1n" (id 1) (at 78.359 248.412 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 80.3148 245.745 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 80.3148 245.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 81.28 249.555 0)
@@ -8900,7 +8900,7 @@
       (reference "C20") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/cacca36a-9f92-40cd-adca-88bbc3103ff0"
-      (reference "C21") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C21") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/462d8942-b46b-4a70-825f-7e6f29b4a2ad"
       (reference "C22") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -8999,7 +8999,7 @@
       (reference "J12") (unit 1) (value "TYPE-C-31-M-12") (footprint "TYPE-C-31-M-12:HRO_TYPE-C-31-M-12")
     )
     (path "/da011f78-877c-4e1b-9f8e-2b32af13a99d"
-      (reference "L1") (unit 1) (value "L") (footprint "Inductor_SMD:L_TDK_SLF7032")
+      (reference "L1") (unit 1) (value "6.8uH") (footprint "Inductor_SMD:L_TDK_SLF7032")
     )
     (path "/00000000-0000-0000-0000-0000604afb22"
       (reference "Q1") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
