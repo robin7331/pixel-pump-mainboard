@@ -4154,7 +4154,7 @@
       (effects (font (size 0.65 0.65) (thickness 0.13)))
       (tstamp dcb2ed48-e3ae-4a57-b76f-450a5b50e6d2)
     )
-    (fp_text value "QWIIC I2C" (at 0 3.3 90) (layer "F.Fab")
+    (fp_text value "BM04B-SRSS-TBT(LF)(SN)" (at 0 3.3 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e1b9be01-b087-45df-93c7-00cc9c5181bb)
     )

@@ -8106,7 +8106,7 @@
     (in_bom yes) (on_board yes)
     (uuid 63c15b5e-c12a-4523-afda-c3d21e50ba5b)
     (property "Reference" "J7" (id 0) (at 363.855 223.52 0))
-    (property "Value" "QWIIC I2C" (id 1) (at 366.395 225.425 0))
+    (property "Value" "BM04B-SRSS-TBT(LF)(SN)" (id 1) (at 366.395 225.425 0))
     (property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" (id 2) (at 363.855 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -8981,7 +8981,7 @@
       (reference "J6") (unit 1) (value "Phoenix Contact 1733570") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
     )
     (path "/63c15b5e-c12a-4523-afda-c3d21e50ba5b"
-      (reference "J7") (unit 1) (value "QWIIC I2C") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
+      (reference "J7") (unit 1) (value "BM04B-SRSS-TBT(LF)(SN)") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
     )
     (path "/ccde1372-9ab3-47ad-9572-4de6238d460d"
       (reference "J8") (unit 1) (value "SPI") (footprint "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical")
