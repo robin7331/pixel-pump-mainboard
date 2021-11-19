@@ -408,7 +408,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sucker-one-mainboard.kicad_pro",
+    "filename": "pixel-pump-mainboard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -489,18 +489,18 @@
       }
     ],
     "meta": {
-      "version": 1
+      "version": 2
     },
     "net_colors": null
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "sucker-one-mainboard.emn",
-      "netlist": "sucker-one-mainboard.net",
+      "idf": "pixel-pump-mainboard.emn",
+      "netlist": "pixel-pump-mainboard.net",
       "specctra_dsn": "",
-      "step": "sucker-one-mainboard.step",
-      "vrml": "sucker-one-mainboard.wrl"
+      "step": "pixel-pump-mainboard.step",
+      "vrml": "pixel-pump-mainboard.wrl"
     },
     "page_layout_descr_file": ""
   },

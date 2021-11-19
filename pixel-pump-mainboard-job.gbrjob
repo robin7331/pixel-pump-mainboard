@@ -9,7 +9,7 @@
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "sucker-one-mainboard",
+      "Name": "pixel-pump-mainboard",
       "GUID": "7375636b-6572-42d6-9f6e-652d6d61696e",
       "Revision": "rev?"
     },
@@ -43,57 +43,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "sucker-one-mainboard-F_Cu.gbr",
+      "Path": "pixel-pump-mainboard-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sucker-one-mainboard-GND.gbr",
+      "Path": "pixel-pump-mainboard-GND.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sucker-one-mainboard-PWR.gbr",
+      "Path": "pixel-pump-mainboard-PWR.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sucker-one-mainboard-B_Cu.gbr",
+      "Path": "pixel-pump-mainboard-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sucker-one-mainboard-F_Paste.gbr",
+      "Path": "pixel-pump-mainboard-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sucker-one-mainboard-B_Paste.gbr",
+      "Path": "pixel-pump-mainboard-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sucker-one-mainboard-F_Silkscreen.gbr",
+      "Path": "pixel-pump-mainboard-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sucker-one-mainboard-B_Silkscreen.gbr",
+      "Path": "pixel-pump-mainboard-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sucker-one-mainboard-F_Mask.gbr",
+      "Path": "pixel-pump-mainboard-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "sucker-one-mainboard-B_Mask.gbr",
+      "Path": "pixel-pump-mainboard-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "sucker-one-mainboard-Edge_Cuts.gbr",
+      "Path": "pixel-pump-mainboard-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
