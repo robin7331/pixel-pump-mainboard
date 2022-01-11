@@ -1,0 +1,51 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Littelfuse Inc SMAJ12CA
+#
+DEF SMAJ12CA D 0 40 Y Y 1 L N
+F0 "D" 0 200 50 H V L CNN 
+F1 "SMAJ12CA" 0 300 50 H V L CNN 
+F2 "Littelfuse_Inc-SMAJ-CA-0-0-*" 0 400 50 H I L CNN 
+F3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" 0 500 50 H I L CNN 
+F4 "No" 0 600 50 H I L CNN "automotive"
+F5 "13.3V" 0 700 50 H I L CNN "breakdown voltage"
+F6 "Diode" 0 800 50 H I L CNN "category"
+F7 "19.9V" 0 900 50 H I L CNN "clamping voltage"
+F8 "Circuit Protection" 0 1000 50 H I L CNN "device class L1"
+F9 "TVS Diodes" 0 1100 50 H I L CNN "device class L2"
+F10 "unset" 0 1200 50 H I L CNN "device class L3"
+F11 "TVS DIODE 12V 19.9V DO214AC" 0 1300 50 H I L CNN "digikey description"
+F12 "SMAJ12CALFCT-ND" 0 1400 50 H I L CNN "digikey part number"
+F13 "Bidirectional" 0 1500 50 H I L CNN "direction"
+F14 "2.29mm" 0 1600 50 H I L CNN "height"
+F15 "Yes" 0 1700 50 H I L CNN "lead free"
+F16 "f24f3f121db97ab7" 0 1800 50 H I L CNN "library id"
+F17 "Littelfuse Inc" 0 1900 50 H I L CNN "manufacturer"
+F18 "+150°C" 0 2000 50 H I L CNN "max junction temp"
+F19 "TVS Diodes - Transient Voltage Suppressors 12Vr 400W 20.1A 5% BiDirectional" 0 2100 50 H I L CNN "mouser description"
+F20 "576-SMAJ12CA" 0 2200 50 H I L CNN "mouser part number"
+F21 "1" 0 2300 50 H I L CNN "number of channels"
+F22 "SMA" 0 2400 50 H I L CNN "package"
+F23 "20.1A" 0 2500 50 H I L CNN "peak pulse current"
+F24 "400W" 0 2600 50 H I L CNN "peak pulse power"
+F25 "12V" 0 2700 50 H I L CNN "reverse standoff voltage"
+F26 "Yes" 0 2800 50 H I L CNN "rohs"
+F27 "+150°C" 0 2900 50 H I L CNN "temperature range high"
+F28 "-65°C" 0 3000 50 H I L CNN "temperature range low"
+DRAW
+X 1 1 100 0 100 R 40 0 1 1 P 
+X 2 2 700 0 100 L 40 0 1 1 P 
+P 2 1 1 0 200 100 200 -100 N
+P 2 1 1 0 400 50 400 -50 N
+P 2 1 1 0 200 100 400 0 N
+P 2 1 1 0 200 -100 400 0 N
+P 2 1 1 0 400 50 450 100 N
+P 2 1 1 0 400 -50 350 -100 N
+P 2 1 1 0 400 0 600 100 N
+P 2 1 1 0 600 100 600 -100 N
+P 2 1 1 0 600 -100 400 0 N
+ENDDRAW
+ENDDEF
+#
+# End Library

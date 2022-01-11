@@ -11,4 +11,5 @@
   (lib (name "BM10B-SRSS-TB(LF)(SN)")(type "Legacy")(uri "${KIPRJMOD}/components/BM10B-SRSS-TB(LF)(SN)/BM10B-SRSS-TB(LF)(SN).lib")(options "")(descr ""))
   (lib (name "TPS62112RSAR")(type "Legacy")(uri "${KIPRJMOD}/components/TPS62112RSAR/TPS62112RSAR.lib")(options "")(descr ""))
   (lib (name "1812L075PR")(type "Legacy")(uri "${KIPRJMOD}/components/1812L075PR/1812L075PR.lib")(options "")(descr ""))
+  (lib (name "SMAJ12CA")(type "Legacy")(uri "${KIPRJMOD}/components/Diode_Littelfuse Inc_SMAJ12CA/eec.lib")(options "")(descr ""))
 )
