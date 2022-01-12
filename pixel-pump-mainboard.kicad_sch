@@ -2802,6 +2802,7 @@
     )
   )
 
+
   (junction (at 135.89 148.59) (diameter 0.9144) (color 0 0 0 0)
     (uuid 0a1a4d88-972a-46ce-b25e-6cb796bd41f7)
   )
@@ -7014,13 +7015,13 @@
   (symbol (lib_id "SMAJ12CA:SMAJ12CA") (at 46.99 130.175 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 04d46d44-29f0-41e2-b9c2-faca40bb6170)
-    (property "Reference" "D?" (id 0) (at 51.435 144.7801 0)
+    (property "Reference" "D5" (id 0) (at 51.435 144.7801 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SMAJ12CA" (id 1) (at 53.975 144.7801 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Littelfuse_Inc-SMAJ-CA-0-0-*" (id 2) (at 57.15 130.175 0)
+    (property "Footprint" "Diode_SMD:D_SMA" (id 2) (at 57.15 130.175 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" (id 3) (at 59.69 130.175 0)
@@ -7108,7 +7109,7 @@
   (symbol (lib_id "power:GND") (at 245.11 180.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 04fbeb4d-1f5e-4cc1-a1c6-06b82e55fec8)
-    (property "Reference" "#PWR?" (id 0) (at 245.11 186.69 0)
+    (property "Reference" "#PWR051" (id 0) (at 245.11 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 245.237 184.7342 0))
@@ -7206,7 +7207,7 @@
   (symbol (lib_id "Device:C") (at 245.11 175.26 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0c9f9409-df68-405b-9b9a-0a3c681ff164)
-    (property "Reference" "C?" (id 0) (at 248.666 174.0916 0)
+    (property "Reference" "C8" (id 0) (at 248.666 174.0916 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (id 1) (at 248.92 176.53 0)
@@ -7985,7 +7986,7 @@
   (symbol (lib_id "power:GND") (at 93.345 182.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 656263cd-a553-4d5e-94a2-ec750e36dd23)
-    (property "Reference" "#PWR?" (id 0) (at 93.345 189.23 0)
+    (property "Reference" "#PWR047" (id 0) (at 93.345 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 93.472 187.2742 0))
@@ -8001,7 +8002,7 @@
   (symbol (lib_id "Power_Protection:SP0502BAHT") (at 80.645 180.34 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6a9588f5-5a62-4bc2-9606-c8cac96c59f6)
-    (property "Reference" "D?" (id 0) (at 80.645 172.085 90))
+    (property "Reference" "D6" (id 0) (at 80.645 172.085 90))
     (property "Value" "SP0502BAHT" (id 1) (at 80.645 174.625 90))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 81.915 174.625 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -8082,7 +8083,7 @@
   (symbol (lib_id "power:GND") (at 309.245 53.975 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 71bbef32-3387-4c77-b0ac-94baa11e2466)
-    (property "Reference" "#PWR?" (id 0) (at 309.245 60.325 0)
+    (property "Reference" "#PWR052" (id 0) (at 309.245 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 309.372 58.3692 0))
@@ -8192,7 +8193,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 77.47 120.65 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7e6da121-6b6e-4747-b19a-096c4bd1260a)
-    (property "Reference" "TP?" (id 0) (at 82.423 118.8212 90))
+    (property "Reference" "TP6" (id 0) (at 82.423 118.8212 90))
     (property "Value" "PSW2" (id 1) (at 80.112 118.821 90))
     (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (id 2) (at 82.55 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8428,7 +8429,7 @@
   (symbol (lib_id "Device:L") (at 83.185 129.54 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9f1122b9-9748-4ccf-aa2f-d98f75196857)
-    (property "Reference" "L?" (id 0) (at 83.185 123.825 90))
+    (property "Reference" "L2" (id 0) (at 83.185 123.825 90))
     (property "Value" "6.8uH" (id 1) (at 83.185 126.365 90))
     (property "Footprint" "Inductor_SMD:L_TDK_SLF7032" (id 2) (at 83.185 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -9037,7 +9038,7 @@
   (symbol (lib_id "Device:C") (at 325.755 33.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d2052ab4-d2a1-4ba1-8e79-e53b1f2a4f63)
-    (property "Reference" "C?" (id 0) (at 322.58 28.6004 90)
+    (property "Reference" "C28" (id 0) (at 322.58 28.6004 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DNP" (id 1) (at 324.485 27.305 90)
@@ -9350,7 +9351,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 68.58 120.65 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid eaf4e827-48c7-474b-9b97-75c6139eb8f0)
-    (property "Reference" "TP?" (id 0) (at 64.008 118.8212 90))
+    (property "Reference" "TP3" (id 0) (at 64.008 118.8212 90))
     (property "Value" "PSW1" (id 1) (at 66.142 118.186 90))
     (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (id 2) (at 73.66 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -9428,7 +9429,7 @@
   (symbol (lib_id "power:GND") (at 325.755 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid edc12b9d-a4c3-4954-9a48-70bcad896f7a)
-    (property "Reference" "#PWR?" (id 0) (at 325.755 44.45 0)
+    (property "Reference" "#PWR053" (id 0) (at 325.755 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 325.882 42.4942 0))
@@ -9556,7 +9557,7 @@
   (symbol (lib_id "Device:C") (at 309.245 47.625 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fcce3af6-bd65-47bf-b11f-30353ee394c6)
-    (property "Reference" "C?" (id 0) (at 315.214 44.6024 90)
+    (property "Reference" "C9" (id 0) (at 315.214 44.6024 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DNP" (id 1) (at 313.055 43.18 90)
@@ -9763,6 +9764,9 @@
     (path "/00e76795-6fa6-479c-b686-ce5b2313e2be"
       (reference "#PWR046") (unit 1) (value "GND") (footprint "")
     )
+    (path "/656263cd-a553-4d5e-94a2-ec750e36dd23"
+      (reference "#PWR047") (unit 1) (value "GND") (footprint "")
+    )
     (path "/c91c65e0-b015-48ec-810e-87c47c31276e"
       (reference "#PWR048") (unit 1) (value "GND") (footprint "")
     )
@@ -9771,6 +9775,15 @@
     )
     (path "/01f6de46-4277-48a2-98f6-0acf9d56c463"
       (reference "#PWR050") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/04fbeb4d-1f5e-4cc1-a1c6-06b82e55fec8"
+      (reference "#PWR051") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/71bbef32-3387-4c77-b0ac-94baa11e2466"
+      (reference "#PWR052") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/edc12b9d-a4c3-4954-9a48-70bcad896f7a"
+      (reference "#PWR053") (unit 1) (value "GND") (footprint "")
     )
     (path "/51fb0a17-77ea-4f1c-b1a9-892942582436"
       (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
@@ -9841,18 +9854,6 @@
     (path "/00000000-0000-0000-0000-000061f71cf1"
       (reference "#PWR0177") (unit 1) (value "+12V") (footprint "")
     )
-    (path "/04fbeb4d-1f5e-4cc1-a1c6-06b82e55fec8"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/656263cd-a553-4d5e-94a2-ec750e36dd23"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/71bbef32-3387-4c77-b0ac-94baa11e2466"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/edc12b9d-a4c3-4954-9a48-70bcad896f7a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/f2f8bd37-909b-41a4-8113-25e4c56a139c"
       (reference "C1") (unit 1) (value "10u 25V") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
@@ -9873,6 +9874,12 @@
     )
     (path "/00000000-0000-0000-0000-0000604344a6"
       (reference "C7") (unit 1) (value "27p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/0c9f9409-df68-405b-9b9a-0a3c681ff164"
+      (reference "C8") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/fcce3af6-bd65-47bf-b11f-30353ee394c6"
+      (reference "C9") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a96ebdb9-5820-4d66-9f7d-3d99d74f050a"
       (reference "C10") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -9928,14 +9935,8 @@
     (path "/3f65d1b5-5772-402a-93cc-d31c5a6e47b0"
       (reference "C27") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/0c9f9409-df68-405b-9b9a-0a3c681ff164"
-      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
     (path "/d2052ab4-d2a1-4ba1-8e79-e53b1f2a4f63"
-      (reference "C?") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/fcce3af6-bd65-47bf-b11f-30353ee394c6"
-      (reference "C?") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C28") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/400e7f02-3fa9-441b-9158-d4a9ac83b942"
       (reference "D1") (unit 1) (value "SP0502BAHT") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -9949,6 +9950,12 @@
     (path "/ec429a61-6352-40a1-b713-119f09b04347"
       (reference "D4") (unit 1) (value "SP0502BAHT") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
+    (path "/04d46d44-29f0-41e2-b9c2-faca40bb6170"
+      (reference "D5") (unit 1) (value "SMAJ12CA") (footprint "Diode_SMD:D_SMA")
+    )
+    (path "/6a9588f5-5a62-4bc2-9606-c8cac96c59f6"
+      (reference "D6") (unit 1) (value "SP0502BAHT") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
     (path "/00000000-0000-0000-0000-0000605beb31"
       (reference "D7") (unit 1) (value "LED DNP") (footprint "LED_SMD:LED_0603_1608Metric")
     )
@@ -9960,12 +9967,6 @@
     )
     (path "/00000000-0000-0000-0000-0000605defca"
       (reference "D10") (unit 1) (value "SOD4007") (footprint "Diode_SMD:D_SOD-123F")
-    )
-    (path "/04d46d44-29f0-41e2-b9c2-faca40bb6170"
-      (reference "D?") (unit 1) (value "SMAJ12CA") (footprint "Littelfuse_Inc-SMAJ-CA-0-0-*")
-    )
-    (path "/6a9588f5-5a62-4bc2-9606-c8cac96c59f6"
-      (reference "D?") (unit 1) (value "SP0502BAHT") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/61625a32-c238-40ad-b2a9-98b507a4a82c"
       (reference "F1") (unit 1) (value "1812L075PR") (footprint "Fuse:Fuse_1812_4532Metric")
@@ -10025,7 +10026,7 @@
       (reference "L1") (unit 1) (value "6.8uH") (footprint "Inductor_SMD:L_TDK_SLF7032")
     )
     (path "/9f1122b9-9748-4ccf-aa2f-d98f75196857"
-      (reference "L?") (unit 1) (value "6.8uH") (footprint "Inductor_SMD:L_TDK_SLF7032")
+      (reference "L2") (unit 1) (value "6.8uH") (footprint "Inductor_SMD:L_TDK_SLF7032")
     )
     (path "/00000000-0000-0000-0000-0000604afb22"
       (reference "Q1") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -10132,11 +10133,17 @@
     (path "/00000000-0000-0000-0000-000061612907"
       (reference "TP2") (unit 1) (value "USB D-") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
+    (path "/eaf4e827-48c7-474b-9b97-75c6139eb8f0"
+      (reference "TP3") (unit 1) (value "PSW1") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
+    )
     (path "/00000000-0000-0000-0000-0000615f04a2"
       (reference "TP4") (unit 1) (value "NC-") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/f4cbc0f3-ec74-4d7e-97fd-78b956518121"
       (reference "TP5") (unit 1) (value "RUN") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
+    )
+    (path "/7e6da121-6b6e-4747-b19a-096c4bd1260a"
+      (reference "TP6") (unit 1) (value "PSW2") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/00000000-0000-0000-0000-0000615f0e5c"
       (reference "TP7") (unit 1) (value "NO-") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
@@ -10194,12 +10201,6 @@
     )
     (path "/00000000-0000-0000-0000-00005fe1651e"
       (reference "TP31") (unit 1) (value "FPEDAL") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
-    )
-    (path "/7e6da121-6b6e-4747-b19a-096c4bd1260a"
-      (reference "TP?") (unit 1) (value "PSW2") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
-    )
-    (path "/eaf4e827-48c7-474b-9b97-75c6139eb8f0"
-      (reference "TP?") (unit 1) (value "PSW1") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/00000000-0000-0000-0000-00005fe07207"
       (reference "U1") (unit 1) (value "LD1117S33TR") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
