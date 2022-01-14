@@ -2,6 +2,9 @@
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
 panel-output
+pixel-pump-mainboard-panel-backups
+
+pixel-pump-mainboard-backups/
 
 # Temporary files
 *.000
@@ -29,4 +32,3 @@ fp-info-cache
 *.xml
 *.csv
 *.step
-pixel-pump-mainboard-backups/
