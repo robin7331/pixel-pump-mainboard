@@ -1,0 +1,57 @@
+{
+  "layout": {
+    "type": "grid",
+    "rows": 1, 
+    "cols": 1,
+    "space": "2mm"
+  },
+  "source": {
+      "type": "auto",
+      "tolerance": "20mm"
+  },
+  "tabs": {
+    "type": "fixed",
+    "width": "4mm",
+    "vcount": 0,
+    "hcount": 3
+  },
+  "cuts": {
+    "type": "mousebites",
+    "drill": "0.5mm",
+    "spacing": "1mm",
+    "offset": "0.2mm",
+    "prolong": "0.5mm"
+},
+  "framing": {
+    "type": "railslr",
+    "width": "5mm",
+    "space": "3mm",
+    "fillet": "0.5mm"
+  },
+  "tooling": {
+    "style": "4hole",
+    "size": "1.152mm",
+    "hoffset": "10mm",
+    "paste": true
+  },
+  "fiducials": {
+    "type": "3fid",
+    "hoffset": "2.5mm",
+    "voffset": "5mm",
+    "coppersize": "2mm",
+    "opening": "1mm"
+  },
+  "text": {
+    "type": "simple",
+    "text": "Pixel Pump Mainboard Rev 3",
+    "anchor": "ml", 
+    "hoffset": "2.5mm",
+    "hjustify": "center",
+    "vjustify": "center",
+    "orientation": "90deg"
+  },
+  "post": {
+    "millradius": "1mm",
+    "copperfill": true
+  }
+}
