@@ -23,16 +23,10 @@
     "prolong": "0.5mm"
 },
   "framing": {
-    "type": "railslr",
+    "type": "frame",
     "width": "5mm",
     "space": "3mm",
     "fillet": "0.5mm"
-  },
-  "tooling": {
-    "style": "4hole",
-    "size": "1.152mm",
-    "hoffset": "10mm",
-    "paste": true
   },
   "fiducials": {
     "type": "3fid",
@@ -41,14 +35,20 @@
     "coppersize": "2mm",
     "opening": "1mm"
   },
+  "tooling": {
+    "type": "4hole",
+    "size": "1.5mm",
+    "hoffset": "2.5mm",
+    "voffset": "2.5mm",
+    "paste": true
+  },
   "text": {
     "type": "simple",
     "text": "Pixel Pump Mainboard Rev 3",
-    "anchor": "ml", 
-    "hoffset": "2.5mm",
+    "anchor": "mt", 
+    "voffset": "2.5mm",
     "hjustify": "center",
-    "vjustify": "center",
-    "orientation": "90deg"
+    "vjustify": "center"
   },
   "post": {
     "millradius": "1mm",
