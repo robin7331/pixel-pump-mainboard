@@ -7,8 +7,8 @@
   (title_block
     (title "Pixel Pump Mainboard")
     (date "2020-12-18")
-    (rev "3")
-    (comment 1 "Revision Date 2022-01-11")
+    (rev "4")
+    (comment 1 "Revision Date 2022-04-29")
   )
 
   (lib_symbols
@@ -7917,7 +7917,7 @@
     (in_bom yes) (on_board yes)
     (uuid 63c15b5e-c12a-4523-afda-c3d21e50ba5b)
     (property "Reference" "J7" (id 0) (at 367.03 230.505 0))
-    (property "Value" "I2C" (id 1) (at 367.665 233.045 0))
+    (property "Value" "EXP1" (id 1) (at 367.665 233.045 0))
     (property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" (id 2) (at 363.855 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -8981,7 +8981,7 @@
     (property "Reference" "J8" (id 0) (at 400.685 228.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SPI" (id 1) (at 400.685 231.14 0)
+    (property "Value" "EXP2" (id 1) (at 400.685 231.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical" (id 2) (at 398.145 227.965 0)
@@ -9990,10 +9990,10 @@
       (reference "J6") (unit 1) (value "Power Sw") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
     )
     (path "/63c15b5e-c12a-4523-afda-c3d21e50ba5b"
-      (reference "J7") (unit 1) (value "I2C") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
+      (reference "J7") (unit 1) (value "EXP1") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
     )
     (path "/ccde1372-9ab3-47ad-9572-4de6238d460d"
-      (reference "J8") (unit 1) (value "SPI") (footprint "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical")
+      (reference "J8") (unit 1) (value "EXP2") (footprint "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical")
     )
     (path "/e5c2696e-219e-4607-9e22-8a199dce175a"
       (reference "J9") (unit 1) (value "BM04B-SRSS-TBT(LF)(SN)") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
