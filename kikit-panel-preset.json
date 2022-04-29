@@ -11,16 +11,16 @@
   },
   "tabs": {
     "type": "fixed",
-    "width": "4mm",
+    "width": "3mm",
     "vcount": 0,
-    "hcount": 3
+    "hcount": 1
   },
   "cuts": {
     "type": "mousebites",
     "drill": "0.5mm",
-    "spacing": "1mm",
+    "spacing": "0.6mm",
     "offset": "0.2mm",
-    "prolong": "0.5mm"
+    "prolong": "0.2mm"
 },
   "framing": {
     "type": "frame",
@@ -44,7 +44,7 @@
   },
   "text": {
     "type": "simple",
-    "text": "Pixel Pump Mainboard Rev 3",
+    "text": "Pixel Pump Mainboard Rev 4",
     "anchor": "mt", 
     "voffset": "2.5mm",
     "hjustify": "center",
