@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CTS 445C25D12M00000
+#
+DEF 445C25D12M00000 Y 0 40 Y Y 1 L N
+F0 "Y" 0 200 50 H V L CNN 
+F1 "445C25D12M00000" 0 300 50 H V L CNN 
+F2 "CTS-445-0-0-*" 0 400 50 H I L CNN 
+F3 "https://www.ctscorp.com/wp-content/uploads/445.pdf" 0 500 50 H I L CNN 
+F4 "Crys" 0 600 50 H I L CNN "category"
+F5 "CRYSTAL 12.0000MHZ 18PF SMD" 0 700 50 H I L CNN "digikey description"
+F6 "CTX1162CT-ND" 0 800 50 H I L CNN "digikey part number"
+F7 "CAPC640320X60" 0 900 50 H I L CNN "ipc land pattern name"
+F8 "yes" 0 1000 50 H I L CNN "lead free"
+F9 "a5a18dbfeb55b9dc" 0 1100 50 H I L CNN "library id"
+F10 "CTS" 0 1200 50 H I L CNN "manufacturer"
+F11 "Crystals 12MHz +/-20ppm 18pF -20C +70C" 0 1300 50 H I L CNN "mouser description"
+F12 "774-445C25D12M00000" 0 1400 50 H I L CNN "mouser part number"
+F13 "SMD2" 0 1500 50 H I L CNN "package"
+F14 "yes" 0 1600 50 H I L CNN "rohs"
+F15 "+70°C" 0 1700 50 H I L CNN "temperature range high"
+F16 "-20°C" 0 1800 50 H I L CNN "temperature range low"
+DRAW
+X 1 1 0 0 50 R 40 0 1 1 U 
+X 2 2 300 0 50 L 40 0 1 1 U 
+P 2 1 1 0 50 80 50 -80 N
+P 2 1 1 0 250 80 250 -80 N
+P 2 1 1 0 100 100 100 -100 N
+P 2 1 1 0 100 100 200 100 N
+P 2 1 1 0 200 100 200 -100 N
+P 2 1 1 0 200 -100 100 -100 N
+ENDDRAW
+ENDDEF
+#
+# End Library

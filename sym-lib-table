@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name "pixel-pump-mainboard-rescue")(type "Legacy")(uri "${KIPRJMOD}/pixel-pump-mainboard-rescue.lib")(options "")(descr ""))
+  (lib (name "pixel-pump-mainboard-rescue")(type "Legacy")(uri "${KIPRJMOD}/pixel-pump-mainboard-rescue.lib")(options "")(descr "")(disabled))
   (lib (name "TPD1E05U06DPYR")(type "Legacy")(uri "${KIPRJMOD}/components/TPD1E05U06DPYR/TPD1E05U06DPYR.lib")(options "")(descr ""))
   (lib (name "TYPE-C-31-M-12")(type "Legacy")(uri "${KIPRJMOD}/components/TYPE-C-31-M-12/TYPE-C-31-M-12.lib")(options "")(descr ""))
   (lib (name "STN4NF20L")(type "Legacy")(uri "${KIPRJMOD}/components/STN4NF20L/STN4NF20L.lib")(options "")(descr ""))
@@ -12,4 +12,5 @@
   (lib (name "TPS62112RSAR")(type "Legacy")(uri "${KIPRJMOD}/components/TPS62112RSAR/TPS62112RSAR.lib")(options "")(descr ""))
   (lib (name "1812L075PR")(type "Legacy")(uri "${KIPRJMOD}/components/1812L075PR/1812L075PR.lib")(options "")(descr ""))
   (lib (name "SMAJ12CA")(type "Legacy")(uri "${KIPRJMOD}/components/Diode_Littelfuse Inc_SMAJ12CA/eec.lib")(options "")(descr ""))
+  (lib (name "CTS 445C25D12M00000 12MHz")(type "Legacy")(uri "${KIPRJMOD}/components/Crys_CTS_445C25D12M00000/eec.lib")(options "")(descr ""))
 )
