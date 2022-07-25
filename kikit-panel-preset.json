@@ -1,9 +1,12 @@
 {
   "layout": {
     "type": "grid",
-    "rows": 1, 
-    "cols": 1,
-    "space": "2mm"
+    "rows": 2, 
+    "cols": 2,
+    "hspace": "10mm",
+    "vspace": "2mm",
+    "vbackbone": "5mm",
+    "vbonecut": true
   },
   "source": {
       "type": "auto",
@@ -44,11 +47,17 @@
   },
   "text": {
     "type": "simple",
-    "text": "Pixel Pump Mainboard Rev 4",
+    "text": "Pixel Pump Mainboard Rev 5",
     "anchor": "mt", 
     "voffset": "2.5mm",
     "hjustify": "center",
     "vjustify": "center"
+  },
+  "copperfill": {
+    "type": "hatched",
+    "clearance": "2mm", 
+    "spacing": "0.5mm",
+    "width": "0.5mm"
   },
   "post": {
     "millradius": "1mm",
