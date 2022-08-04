@@ -3497,7 +3497,7 @@
 
   (footprint "kibuzzard-62EBC230" (layer "F.Cu")
     (tedit 62EBC230) (tstamp 8e03c4ea-dc28-40e4-a56a-d0e61cdd7e27)
-    (at 86.4616 113.3856)
+    (at 86.614 113.284)
     (descr "Converted using: scripting")
     (tags "svg2mod")
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -6489,7 +6489,7 @@
 
   (footprint "kibuzzard-62EBC211" (layer "F.Cu")
     (tedit 62EBC211) (tstamp ee87b2d1-f340-4e93-9d72-90982bae8c42)
-    (at 85.344 115.6208)
+    (at 85.4964 115.5192)
     (descr "Converted using: scripting")
     (tags "svg2mod")
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -10145,7 +10145,7 @@
   (gr_line (start 121.475992 102.987507) (end 116.62628 106.292828) (layer "Edge.Cuts") (width 0.2) (tstamp ef049f52-53fb-49b4-95ed-dd95dc246d5e))
   (gr_arc (start 129.699998 139.450136) (mid 130.567849 136.355905) (end 132.918238 134.164307) (layer "Edge.Cuts") (width 0.2) (tstamp f4d52d85-1baa-418d-af75-81fb83bb4ced))
   (gr_line (start 70.5 139.450136) (end 70.5 152.434856) (layer "Edge.Cuts") (width 0.2) (tstamp f7673fa6-3a3c-4e13-9d88-1f2d56043c9e))
-  (gr_text "REV 7" (at 84.582 118.0592) (layer "F.SilkS") (tstamp 319fcfe7-95db-450a-bf31-c0d43afd293f)
+  (gr_text "REV 7" (at 84.8868 117.4496) (layer "F.SilkS") (tstamp 319fcfe7-95db-450a-bf31-c0d43afd293f)
     (effects (font (size 0.65 0.65) (thickness 0.13)))
   )
   (gr_text "NC" (at 118.364 123.2408) (layer "F.SilkS") (tstamp c0bdb1a6-7351-4e53-b8fa-c8bb93d8aeab)
