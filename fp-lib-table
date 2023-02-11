@@ -11,4 +11,5 @@
   (lib (name "STN4NF20L")(type "KiCad")(uri "${KIPRJMOD}/components/STN4NF20L")(options "")(descr ""))
   (lib (name "TPS62112RSAR")(type "KiCad")(uri "${KIPRJMOD}/components/TPS62112RSAR")(options "")(descr ""))
   (lib (name "CTS 445C25D12M00000 12MHz")(type "KiCad")(uri "${KIPRJMOD}/components/Crys_CTS_445C25D12M00000/eec.pretty")(options "")(descr ""))
+  (lib (name "kikit")(type "KiCad")(uri "${KIPRJMOD}/components/KiKit/kikit.pretty")(options "")(descr ""))
 )

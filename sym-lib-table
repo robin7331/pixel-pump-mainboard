@@ -13,4 +13,5 @@
   (lib (name "1812L075PR")(type "Legacy")(uri "${KIPRJMOD}/components/1812L075PR/1812L075PR.lib")(options "")(descr ""))
   (lib (name "SMAJ12CA")(type "Legacy")(uri "${KIPRJMOD}/components/Diode_Littelfuse Inc_SMAJ12CA/eec.lib")(options "")(descr ""))
   (lib (name "CTS 445C25D12M00000 12MHz")(type "Legacy")(uri "${KIPRJMOD}/components/Crys_CTS_445C25D12M00000/eec.lib")(options "")(descr ""))
+  (lib (name "kikit")(type "KiCad")(uri "${KIPRJMOD}/components/KiKit/kikit.kicad_sym")(options "")(descr ""))
 )
