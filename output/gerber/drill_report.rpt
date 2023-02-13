@@ -1,0 +1,38 @@
+Drill report for pixel-pump-mainboard-panel.kicad_pcb
+Created on Mon Feb 13 12:17:36 2023
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'pixel-pump-mainboard-panel.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (1136 holes)
+    T2  0.350mm  0.0138"  (16 holes)
+    T3  0.500mm  0.0197"  (8 holes)
+    T4  0.500mm  0.0197"  (160 holes)
+    T5  0.650mm  0.0256"  (16 holes)  (with 16 slots)
+    T6  0.800mm  0.0315"  (44 holes)  (with 12 slots)
+    T7  0.900mm  0.0354"  (16 holes)
+    T8  1.000mm  0.0394"  (32 holes)
+    T9  1.300mm  0.0512"  (16 holes)
+    T10  1.600mm  0.0630"  (4 holes)
+    T11  3.200mm  0.1260"  (20 holes)
+
+    Total plated holes count 1468
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T12  0.500mm  0.0197"  (80 holes)
+    T13  0.700mm  0.0276"  (8 holes)
+    T14  2.300mm  0.0906"  (8 holes)
+    T15  3.000mm  0.1181"  (4 holes)
+
+    Total unplated holes count 100

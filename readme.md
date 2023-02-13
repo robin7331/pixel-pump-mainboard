@@ -1,7 +1,7 @@
-# Pixel Pump Mainboard Rev 2
-`KiCad Nightly 6.0.0-rc1-46-g1d2fd6d271`
+# Pixel Pump Mainboard Rev 8
+`KiCad 6.0.11`
 
-![Pixel Pump PCB Front](https://github.com/robin7331/pixel-pump-mainboard/blob/main/media/pixel-pump-mainboard-Front.png?raw=true)
-![Pixel Pump PCB Front](https://github.com/robin7331/pixel-pump-mainboard/blob/main/media/schematic.png?raw=true)
+![Pixel Pump PCB Front](https://github.com/robin7331/pixel-pump-mainboard/blob/main/media/pixel-pump-mainboard-front.svg?raw=true)
+![Pixel Pump PCB Back](https://github.com/robin7331/pixel-pump-mainboard/blob/main/media/pixel-pump-mainboard-back.svg?raw=true)
 
 See iBOM [rendered as Page](https://htmlpreview.github.io/?https://github.com/robin7331/pixel-pump-mainboard/blob/main/bom/ibom.html) via GitHub Pages

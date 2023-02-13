@@ -1,22 +1,27 @@
 {
   "layout": {
     "type": "grid",
-    "rows": 2, 
+    "rows": 2,
     "cols": 2,
-    "hspace": "10mm",
-    "vspace": "2mm",
+    "space": "3mm",
     "vbackbone": "5mm",
-    "vbonecut": true
+    "vbonecut": false,
+    "hbackbone": "5mm",
+    "hbonecut": false
+  },
+   "framing": {
+    "type": "tightframe",
+    "width": "8mm",
+    "space": "3mm",
+    "slotwidth": "3mm",
+    "fillet": "1mm"
   },
   "source": {
-      "type": "auto",
-      "tolerance": "20mm"
+    "type": "auto",
+    "tolerance": "20mm"
   },
   "tabs": {
-    "type": "fixed",
-    "width": "3mm",
-    "vcount": 0,
-    "hcount": 1
+    "type": "annotation"
   },
   "cuts": {
     "type": "mousebites",
@@ -24,43 +29,37 @@
     "spacing": "0.6mm",
     "offset": "0.2mm",
     "prolong": "0.2mm"
-},
-  "framing": {
-    "type": "frame",
-    "width": "5mm",
-    "space": "3mm",
-    "fillet": "0.5mm"
   },
   "fiducials": {
-    "type": "3fid",
-    "hoffset": "2.5mm",
-    "voffset": "5mm",
+    "type": "4fid",
+    "hoffset": "4mm",
+    "voffset": "3mm",
     "coppersize": "2mm",
-    "opening": "1mm"
+    "opening": "1mm",
+    "paste": true
   },
   "tooling": {
     "type": "4hole",
-    "size": "1.5mm",
-    "hoffset": "2.5mm",
-    "voffset": "2.5mm",
+    "size": "3mm",
+    "hoffset": "4mm",
+    "voffset": "7mm",
     "paste": true
   },
   "text": {
     "type": "simple",
-    "text": "Pixel Pump Mainboard Rev 5",
-    "anchor": "mt", 
-    "voffset": "2.5mm",
+    "text": "Pixel Pump Mainboard Rev 8",
+    "anchor": "mt",
+    "voffset": "4mm",
     "hjustify": "center",
     "vjustify": "center"
   },
   "copperfill": {
     "type": "hatched",
-    "clearance": "2mm", 
-    "spacing": "0.5mm",
-    "width": "0.5mm"
+    "clearance": "0.75mm",
+    "spacing": "0.75mm",
+    "width": "0.75mm"
   },
   "post": {
-    "millradius": "1mm",
-    "copperfill": true
+    "millradius": "1mm"
   }
 }

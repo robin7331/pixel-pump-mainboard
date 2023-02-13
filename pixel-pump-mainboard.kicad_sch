@@ -7607,23 +7607,6 @@
     (pin "8" (uuid 4a6b4f1e-15e1-409f-9acc-3dd9c09c450d))
   )
 
-  (symbol (lib_id "kikit:Tab") (at 266.7 32.385 0) (unit 1)
-    (in_bom no) (on_board yes) (fields_autoplaced)
-    (uuid 268a072e-7284-4f19-b28d-76384cd530ca)
-    (property "Reference" "T5" (id 0) (at 271.78 30.4799 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Tab" (id 1) (at 271.78 33.0199 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "kikit:Tab" (id 2) (at 266.7 32.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 266.7 32.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "power:+3V3") (at 333.375 231.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2a19432d-4751-43ef-b861-d016dd5a892e)
@@ -10691,9 +10674,6 @@
     )
     (path "/84628ad2-8875-4b6c-aedd-9a4631f61f46"
       (reference "T4") (unit 1) (value "Tab") (footprint "kikit:Tab")
-    )
-    (path "/268a072e-7284-4f19-b28d-76384cd530ca"
-      (reference "T5") (unit 1) (value "Tab") (footprint "kikit:Tab")
     )
     (path "/00000000-0000-0000-0000-0000615f52e1"
       (reference "TP1") (unit 1) (value "USB D+") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
