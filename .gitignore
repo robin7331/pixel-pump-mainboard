@@ -1,10 +1,6 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
-panel-output
-pixel-pump-mainboard-panel-backups
-output
-
 pixel-pump-mainboard-backups/
 
 # Temporary files
