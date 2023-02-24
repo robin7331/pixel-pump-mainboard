@@ -55,9 +55,9 @@
   },
   "copperfill": {
     "type": "hatched",
-    "clearance": "0.75mm",
-    "spacing": "0.75mm",
-    "width": "0.75mm"
+    "clearance": "0.5mm",
+    "spacing": "1mm",
+    "width": "2.5mm"
   },
   "post": {
     "millradius": "1mm"

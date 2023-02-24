@@ -1,5 +1,5 @@
 Drill report for pixel-pump-mainboard-panel.kicad_pcb
-Created on Fri Feb 24 20:08:58 2023
+Created on Fri Feb 24 20:34:38 2023
 
 Copper Layer Stackup:
     =============================================================
@@ -30,9 +30,9 @@ Drill file 'pixel-pump-mainboard-panel.drl' contains
 Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
-    T12  0.500mm  0.0197"  (80 holes)
+    T12  0.500mm  0.0197"  (79 holes)
     T13  0.700mm  0.0276"  (8 holes)
     T14  2.300mm  0.0906"  (8 holes)
     T15  3.000mm  0.1181"  (4 holes)
 
-    Total unplated holes count 100
+    Total unplated holes count 99
