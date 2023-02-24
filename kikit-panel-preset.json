@@ -36,18 +36,18 @@
     "voffset": "3mm",
     "coppersize": "2mm",
     "opening": "1mm",
-    "paste": true
+    "paste": false
   },
   "tooling": {
     "type": "4hole",
     "size": "3mm",
     "hoffset": "4mm",
     "voffset": "7mm",
-    "paste": true
+    "paste": false
   },
   "text": {
     "type": "simple",
-    "text": "Pixel Pump Mainboard Rev 8",
+    "text": "Pixel Pump Mainboard Rev 9",
     "anchor": "mt",
     "voffset": "4mm",
     "hjustify": "center",
