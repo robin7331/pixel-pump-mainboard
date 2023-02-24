@@ -6,7 +6,8 @@
 
   (paper "A4")
   (title_block
-    (comment 4 "AISLER Project ID: MGVSLDAY")
+    (date "2023-02-24")
+    (rev "9")
   )
 
   (layers
