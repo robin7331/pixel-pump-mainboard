@@ -12,4 +12,6 @@
   (lib (name "TPS62112RSAR")(type "KiCad")(uri "${KIPRJMOD}/components/TPS62112RSAR")(options "")(descr ""))
   (lib (name "CTS 445C25D12M00000 12MHz")(type "KiCad")(uri "${KIPRJMOD}/components/Crys_CTS_445C25D12M00000/eec.pretty")(options "")(descr ""))
   (lib (name "kikit")(type "KiCad")(uri "${KIPRJMOD}/components/KiKit/kikit.pretty")(options "")(descr ""))
+  (lib (name "BM06B-SRSS-TBT")(type "KiCad")(uri "${KIPRJMOD}/components/BM06B-SRSS-TBT/BM06B-SRSS-TBT.pretty")(options "")(descr ""))
+  (lib (name "BM04B-SRSS-TBT")(type "KiCad")(uri "${KIPRJMOD}/components/BM04B-SRSS-TBT/BM04B-SRSS-TBT.pretty")(options "")(descr ""))
 )

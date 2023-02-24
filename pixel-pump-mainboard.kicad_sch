@@ -5993,7 +5993,7 @@
     (uuid 00000000-0000-0000-0000-00005fe07207)
     (property "Reference" "U1" (id 0) (at 184.785 171.0182 0))
     (property "Value" "LD1117S33TR" (id 1) (at 184.785 173.3296 0))
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (id 2) (at 184.785 172.085 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-223" (id 2) (at 184.785 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" (id 3) (at 187.325 183.515 0)
@@ -8260,7 +8260,7 @@
     (uuid 63c15b5e-c12a-4523-afda-c3d21e50ba5b)
     (property "Reference" "J7" (id 0) (at 367.03 230.505 0))
     (property "Value" "EXP1" (id 1) (at 367.665 233.045 0))
-    (property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" (id 2) (at 363.855 233.68 0)
+    (property "Footprint" "BM04B-SRSS-TBT:BM04B-SRSS-TBT" (id 2) (at 363.855 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 363.855 233.68 0)
@@ -9385,7 +9385,7 @@
     (property "Value" "EXP2" (id 1) (at 400.685 231.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical" (id 2) (at 398.145 227.965 0)
+    (property "Footprint" "BM06B-SRSS-TBT:BM06B-SRSS-TBT" (id 2) (at 398.145 227.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 398.145 227.965 0)
@@ -9695,7 +9695,7 @@
     (uuid e5c2696e-219e-4607-9e22-8a199dce175a)
     (property "Reference" "J9" (id 0) (at 240.03 74.295 0))
     (property "Value" "BM04B-SRSS-TBT(LF)(SN)" (id 1) (at 229.235 72.39 0))
-    (property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" (id 2) (at 240.03 64.135 0)
+    (property "Footprint" "BM04B-SRSS-TBT:BM04B-SRSS-TBT" (id 2) (at 240.03 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 240.03 64.135 0)
@@ -10541,13 +10541,13 @@
       (reference "J6") (unit 1) (value "Power Sw") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
     )
     (path "/63c15b5e-c12a-4523-afda-c3d21e50ba5b"
-      (reference "J7") (unit 1) (value "EXP1") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
+      (reference "J7") (unit 1) (value "EXP1") (footprint "BM04B-SRSS-TBT:BM04B-SRSS-TBT")
     )
     (path "/ccde1372-9ab3-47ad-9572-4de6238d460d"
-      (reference "J8") (unit 1) (value "EXP2") (footprint "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical")
+      (reference "J8") (unit 1) (value "EXP2") (footprint "BM06B-SRSS-TBT:BM06B-SRSS-TBT")
     )
     (path "/e5c2696e-219e-4607-9e22-8a199dce175a"
-      (reference "J9") (unit 1) (value "BM04B-SRSS-TBT(LF)(SN)") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
+      (reference "J9") (unit 1) (value "BM04B-SRSS-TBT(LF)(SN)") (footprint "BM04B-SRSS-TBT:BM04B-SRSS-TBT")
     )
     (path "/35fdf0b6-a443-403b-a5af-ffb36b6c09ec"
       (reference "J10") (unit 1) (value "BM10B-SRSS-TB(LF)(SN)") (footprint "BM10B-SRSS-TB(LF)(SN):BM10B-SRSS-TB(LF)(SN)")
@@ -10751,7 +10751,7 @@
       (reference "TP31") (unit 1) (value "FPEDAL") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/00000000-0000-0000-0000-00005fe07207"
-      (reference "U1") (unit 1) (value "LD1117S33TR") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (reference "U1") (unit 1) (value "LD1117S33TR") (footprint "Package_TO_SOT_SMD:SOT-223")
     )
     (path "/123b26f0-57ed-4b1d-87b7-6a7a7f162189"
       (reference "U2") (unit 1) (value "TPS62112RSAR") (footprint "TPS62112RSAR:QFN65P400X400X100-17N")
