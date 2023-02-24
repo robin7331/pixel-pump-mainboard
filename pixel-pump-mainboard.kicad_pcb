@@ -274,7 +274,7 @@
 
   (footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm" (layer "F.Cu")
     (tedit 5C18CB26) (tstamp 087c4aef-a9ae-423f-939b-241bea7e1a7b)
-    (at 127.9652 152.654)
+    (at 127.9652 152.7302)
     (descr "Circular Fiducial, 0.75mm bare copper, 1.5mm soldermask opening (Level B)")
     (tags "fiducial")
     (property "Sheetfile" "pixel-pump-mainboard.kicad_sch")
@@ -1196,7 +1196,7 @@
 
   (footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm" (layer "F.Cu")
     (tedit 5C18CB26) (tstamp 36ee7816-adba-4507-af62-57007b78bde1)
-    (at 72.1106 152.8572)
+    (at 72.6694 152.8826)
     (descr "Circular Fiducial, 0.75mm bare copper, 1.5mm soldermask opening (Level B)")
     (tags "fiducial")
     (property "Sheetfile" "pixel-pump-mainboard.kicad_sch")
