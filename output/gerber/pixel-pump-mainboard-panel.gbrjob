@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "6.0.0-d3dd2cf0fa~116~ubuntu20.04.1"
     },
-    "CreationDate": "2023-02-13T12:17:36+00:00"
+    "CreationDate": "2023-02-24T20:08:58+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "pixel-pump-mainboard-panel",
       "GUID": "70697865-6c2d-4707-956d-702d6d61696e",
-      "Revision": "rev?"
+      "Revision": "9"
     },
     "Size": {
       "X": 169.1,
